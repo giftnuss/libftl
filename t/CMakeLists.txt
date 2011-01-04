@@ -1,0 +1,5 @@
+LINK_LIBRARIES(ftl)
+INCLUDE_DIRECTORIES(..)
+
+ADD_EXECUTABLE(0x01-taptest.t taptest.cpp)
+

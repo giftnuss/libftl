@@ -1,0 +1,16 @@
+/*
+ * taptest - very simple tap based testing
+ *
+ * Copyright (c) 2011, Frank Mertens
+ *
+ * See ../COPYING for the license.
+ */
+#ifndef FTL_TAPTEST
+#define FTL_TAPTEST
+
+#include "TapSuite.hpp"
+#include "TapRun.hpp"
+#include "TapBase.hpp"
+
+#endif
+

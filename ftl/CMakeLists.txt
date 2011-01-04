@@ -123,6 +123,11 @@ SET(FTL_HEADER
 	CommandLine.hpp
 	LinkInfo.hpp
 	SymbolicLink.hpp
+	
+	taptest
+	TapRun.hpp
+	TapSuite.hpp
+	TapBase.hpp
 )
 
 SET(FTL_SOURCE
@@ -205,6 +210,10 @@ SET(FTL_SOURCE
 	CommandLine.cpp
 	LinkInfo.cpp
 	SymbolicLink.cpp
+	
+	# taptest
+	TapRun.cpp
+	TapSuite.cpp
 )
 
 ADD_LIBRARY(ftl
